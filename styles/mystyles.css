@@ -1,0 +1,42 @@
+body{
+    background-color:rgb(206, 136, 79);
+}
+
+/*these are my 4 text attributes used on my Index and About pages*/
+
+a:visited{
+    color: rgb(104, 81, 19)
+}
+
+    .underline{
+        text-decoration: underline;
+    }
+
+    .justify {
+        text-align:center;
+    }
+
+    a:hover {
+        text-decoration: underline;
+        font-weight: bold;
+        font-size:x-large;
+    }
+
+/*Other changes to my pages*/
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.footer{
+    bottom: 80px;
+    height: 50px;
+    left: 5px;
+    right: 5px;
+    font-size: 14px;
+    text-align:center;
+    position: fixed;
+}
+
